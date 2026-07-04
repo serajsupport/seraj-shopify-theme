@@ -48,50 +48,50 @@
       }
     },
     "our_products": {
-      "type": "multicolumn",
+      "type": "product-showcase",
       "blocks": {
         "saffron": {
-          "type": "column",
+          "type": "product_card",
           "settings": {
+            "fallback_image": "product-saffron.jpg",
             "title": "Saffron",
-            "text": "<p>Premium Persian saffron threads, prized for their deep color and aroma.</p>",
-            "link_label": "",
+            "text": "<p>Hand-picked Persian saffron threads, prized worldwide for their deep crimson color, intoxicating aroma, and rich, honeyed flavor. A pinch transforms rice, desserts, and teas.</p>",
             "link": "shopify://collections/all"
           }
         },
         "pine_nuts": {
-          "type": "column",
+          "type": "product_card",
           "settings": {
+            "fallback_image": "product-pine-nuts.jpg",
             "title": "Pine Nuts",
-            "text": "<p>Rich, buttery pine nuts, perfect for cooking and snacking.</p>",
-            "link_label": "",
+            "text": "<p>Delicate, buttery pine nuts with a subtly sweet, toasted flavor. A prized addition to salads, pestos, and Middle Eastern rice dishes.</p>",
             "link": "shopify://collections/all"
           }
         },
         "dried_figs": {
-          "type": "column",
+          "type": "product_card",
           "settings": {
+            "fallback_image": "product-dried-figs.jpg",
             "title": "Dried Figs",
-            "text": "<p>Naturally sweet, sun-dried figs packed with flavor.</p>",
-            "link_label": "",
+            "text": "<p>Naturally sun-dried figs, soft and packed with concentrated sweetness. Enjoy them as a wholesome snack or paired with cheese and nuts.</p>",
             "link": "shopify://collections/all"
           }
         },
         "almonds": {
-          "type": "column",
+          "type": "product_card",
           "settings": {
+            "fallback_image": "product-almonds.jpg",
             "title": "Almonds",
-            "text": "<p>Premium quality almonds, fresh and carefully selected.</p>",
-            "link_label": "",
+            "text": "<p>Premium quality almonds with a satisfying crunch and mild, nutty sweetness. A versatile everyday snack, rich in flavor and nutrition.</p>",
             "link": "shopify://collections/all"
           }
         },
         "pistachio": {
-          "type": "column",
+          "type": "product_card",
           "settings": {
+            "fallback_image": "product-pistachio.jpg",
             "title": "Pistachio",
-            "text": "<p>Delicious, high-quality pistachios sourced with care.</p>",
-            "link_label": "",
+            "text": "<p>Vibrant green pistachios with a rich, slightly sweet flavor. A beloved snack and a signature ingredient in Persian and Middle Eastern sweets.</p>",
             "link": "shopify://collections/all"
           }
         }
@@ -106,16 +106,7 @@
       "settings": {
         "title": "Our Products",
         "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "square",
-        "button_label": "Shop all",
-        "button_link": "shopify://collections/all",
-        "columns_desktop": 5,
-        "column_alignment": "center",
-        "background_style": "primary",
         "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
         "padding_top": 44,
         "padding_bottom": 36
       }
