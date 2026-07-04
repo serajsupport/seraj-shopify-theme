@@ -1,0 +1,200 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "SERAJ — Premium Persian Saffron & Dried Fruits",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hand-selected saffron, pine nuts, dried figs, almonds and pistachios — sourced with care.</p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "image_behavior": "none",
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "our_products": {
+      "type": "multicolumn",
+      "blocks": {
+        "saffron": {
+          "type": "column",
+          "settings": {
+            "title": "Saffron",
+            "text": "<p>Premium Persian saffron threads, prized for their deep color and aroma.</p>",
+            "link_label": "",
+            "link": "shopify://collections/all"
+          }
+        },
+        "pine_nuts": {
+          "type": "column",
+          "settings": {
+            "title": "Pine Nuts",
+            "text": "<p>Rich, buttery pine nuts, perfect for cooking and snacking.</p>",
+            "link_label": "",
+            "link": "shopify://collections/all"
+          }
+        },
+        "dried_figs": {
+          "type": "column",
+          "settings": {
+            "title": "Dried Figs",
+            "text": "<p>Naturally sweet, sun-dried figs packed with flavor.</p>",
+            "link_label": "",
+            "link": "shopify://collections/all"
+          }
+        },
+        "almonds": {
+          "type": "column",
+          "settings": {
+            "title": "Almonds",
+            "text": "<p>Premium quality almonds, fresh and carefully selected.</p>",
+            "link_label": "",
+            "link": "shopify://collections/all"
+          }
+        },
+        "pistachio": {
+          "type": "column",
+          "settings": {
+            "title": "Pistachio",
+            "text": "<p>Delicious, high-quality pistachios sourced with care.</p>",
+            "link_label": "",
+            "link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "saffron",
+        "pine_nuts",
+        "dried_figs",
+        "almonds",
+        "pistachio"
+      ],
+      "settings": {
+        "title": "Our Products",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "square",
+        "button_label": "Shop all",
+        "button_link": "shopify://collections/all",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "our_story": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "About SERAJ",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SERAJ brings authentic, carefully sourced saffron and dried fruits to your table. Reach us anytime by WhatsApp or email — we're happy to help with bulk orders and questions.</p>"
+          }
+        },
+        "buttons": {
+          "type": "button",
+          "settings": {
+            "button_label": "WhatsApp us",
+            "button_link": "https:\/\/wa.me\/905319601466",
+            "button_style_secondary": false,
+            "button_label_2": "Email us",
+            "button_link_2": "mailto:seraj.support@gmail.com",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "buttons"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "our_products",
+    "featured_collection",
+    "our_story"
+  ]
+}
